@@ -29,8 +29,13 @@ public final class AnimUtils {
         }
     }
 
-//    public static void setRecylerviewRightToLeftAnimWithDur500(Context context, RecyclerView recyclerView){
-//        LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation_fall_down_dur500);
-//        recyclerView.setLayoutAnimation(animation);
-//    }
+    public static void setRecylerviewSlideFromRightAnim(Context context, RecyclerView recyclerView){
+        LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation_slide_from_right_long);
+        recyclerView.setLayoutAnimation(animation);
+    }
+
+    public static void setRecylerviewSlideFromLeftAnim(Context context, RecyclerView recyclerView){
+        LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation_slide_from_left_long);
+        recyclerView.setLayoutAnimation(animation);
+    }
 }

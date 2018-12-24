@@ -11,7 +11,22 @@
         android:id="@+id/btnFallDown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Layout Animation Fall Down" />
+        android:layout_margin="16dp"
+        android:text="Fall Down"
+        android:transitionName="simple_activity_transition" />
 
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btnSlideRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Slide from Right" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btnSlideLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Slide from Left" />
 
 </LinearLayout>

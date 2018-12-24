@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ActivityFallDown"></activity>
+        <activity android:name=".activities.ActivityFallDown" />
+        <activity android:name=".activities.ActivitySlideFromLeftOrRight"></activity>
     </application>
 
 </manifest>
