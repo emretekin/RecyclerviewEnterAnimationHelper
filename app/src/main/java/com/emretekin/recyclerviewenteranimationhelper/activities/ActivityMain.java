@@ -7,7 +7,7 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.view.ViewCompat;
 import android.view.View;
 
-import com.emretekin.recyclerviewenteranimationhelper.BaseActivity;
+import com.emretekin.recyclerviewenteranimationhelper.base.BaseActivity;
 import com.emretekin.recyclerviewenteranimationhelper.R;
 import com.emretekin.recyclerviewenteranimationhelper.utils.AppConstants;
 

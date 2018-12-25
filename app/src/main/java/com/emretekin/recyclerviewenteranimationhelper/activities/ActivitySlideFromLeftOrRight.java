@@ -7,7 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.emretekin.recyclerviewenteranimationhelper.BaseActivity;
+import com.emretekin.recyclerviewenteranimationhelper.base.BaseActivity;
 import com.emretekin.recyclerviewenteranimationhelper.R;
 import com.emretekin.recyclerviewenteranimationhelper.adapters.ItemsAdapter;
 import com.emretekin.recyclerviewenteranimationhelper.utils.AnimUtils;

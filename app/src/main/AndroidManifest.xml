@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.ActivityFallDown" />
-        <activity android:name=".activities.ActivitySlideFromLeftOrRight"></activity>
+        <activity android:name=".activities.ActivitySlideFromLeftOrRight" />
+        <activity android:name=".activities.ActivityExtensionFunc"></activity>
     </application>
 
 </manifest>

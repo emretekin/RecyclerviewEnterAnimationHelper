@@ -29,4 +29,13 @@
         android:layout_margin="16dp"
         android:text="Slide from Left" />
 
+    <View style="@style/HorizontalLineStyle" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btnKotlinExtensionFunc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Kotlin Extension Function on Recyclerview" />
+
 </LinearLayout>

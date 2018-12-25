@@ -1,10 +1,12 @@
-package com.emretekin.recyclerviewenteranimationhelper;
+package com.emretekin.recyclerviewenteranimationhelper.base;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.emretekin.recyclerviewenteranimationhelper.R;
 
 /**
  * Created by emretekin on 21/01/18.

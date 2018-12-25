@@ -1,18 +1,12 @@
 package com.emretekin.recyclerviewenteranimationhelper.activities;
 
-import android.content.Context;
 import android.support.design.button.MaterialButton;
-import android.support.design.chip.Chip;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LayoutAnimationController;
-import android.widget.CompoundButton;
 
-import com.emretekin.recyclerviewenteranimationhelper.BaseActivity;
+import com.emretekin.recyclerviewenteranimationhelper.base.BaseActivity;
 import com.emretekin.recyclerviewenteranimationhelper.R;
 import com.emretekin.recyclerviewenteranimationhelper.adapters.ItemsAdapter;
 import com.emretekin.recyclerviewenteranimationhelper.utils.AnimUtils;
