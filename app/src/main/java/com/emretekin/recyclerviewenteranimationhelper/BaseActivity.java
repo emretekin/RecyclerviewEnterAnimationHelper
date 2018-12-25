@@ -40,11 +40,11 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void overridePendingTransitionEnter() {
-//        overridePendingTransition(R.anim.right_to_left_in, R.anim.right_to_left_exit);
+        overridePendingTransition(R.anim.right_to_left_in, R.anim.right_to_left_exit);
     }
 
     public void overridePendingTransitionExit() {
-//        overridePendingTransition(R.anim.left_to_right_in, R.anim.left_to_right_exit);
+        overridePendingTransition(R.anim.left_to_right_in, R.anim.left_to_right_exit);
     }
 
     @Override
