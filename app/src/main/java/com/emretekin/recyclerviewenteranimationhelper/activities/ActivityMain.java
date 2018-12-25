@@ -11,10 +11,12 @@ import com.emretekin.recyclerviewenteranimationhelper.base.BaseActivity;
 import com.emretekin.recyclerviewenteranimationhelper.R;
 import com.emretekin.recyclerviewenteranimationhelper.utils.AppConstants;
 
+import static com.emretekin.recyclerviewenteranimationhelper.utils.MyExtensionFunctionsKt.startActivityExtensionFunc;
+
 public class ActivityMain extends BaseActivity implements View.OnClickListener {
 
     //Views
-    private MaterialButton btnFallDown, btnSlideFromRight, btnSlideFromLeft;
+    private MaterialButton btnFallDown, btnSlideFromRight, btnSlideFromLeft, btnKotlinExtensionFunc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,7 @@ public class ActivityMain extends BaseActivity implements View.OnClickListener {
         btnFallDown = findViewById(R.id.btnFallDown);
         btnSlideFromRight = findViewById(R.id.btnSlideRight);
         btnSlideFromLeft = findViewById(R.id.btnSlideLeft);
+        btnKotlinExtensionFunc = findViewById(R.id.btnKotlinExtensionFunc);
     }
 
     @Override
@@ -39,6 +42,7 @@ public class ActivityMain extends BaseActivity implements View.OnClickListener {
         btnFallDown.setOnClickListener(this);
         btnSlideFromRight.setOnClickListener(this);
         btnSlideFromLeft.setOnClickListener(this);
+        btnKotlinExtensionFunc.setOnClickListener(this);
     }
 
     @Override
@@ -60,6 +64,9 @@ public class ActivityMain extends BaseActivity implements View.OnClickListener {
                 intent = new Intent(ActivityMain.this, ActivitySlideFromLeftOrRight.class);
                 intent.putExtra(AppConstants.INTENT_DIRECTION_INFO, AppConstants.LEFT);
                 startActivity(intent);
+                break;
+            case R.id.btnKotlinExtensionFunc:
+                startActivityExtensionFunc(this);  //Kotlin effect.
                 break;
         }
     }
